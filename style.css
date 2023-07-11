@@ -520,34 +520,44 @@ button,input{
 }
 
 /*Subscribe*/
-.subscribe_bg{
+.subscribe-bg {
     background-color: hsl(190, 64%, 22%);
     padding: 2.5rem 0;
-}
-.section_title,.subscribe_description{
-color:white
-}
-.subscribe_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section-titlea,
+  .subscribe-description {
+    color: white;
     text-align: center;
+  }
+  
+  .subscribe-description {
     margin-bottom: 2.5rem;
-}
-.subscribe_form{
-width:70%;
+  }
+  
+  .subscribe-form {
+    padding: 0.6rem;
     background-color: hsl(190, 24%, 97%);
     display: flex;
-    padding-right: .5rem;
     justify-content: space-between;
-}
-.subscribe_input{
+    align-items: center;
+  }
+  
+  .subscribe-input {
     width: 70%;
-    padding-right: .5rem;
-    background-color: hsl(190, 64%, 97%);
-    color:hsl(190, 24%, 35%);
+    padding-right: 0.5rem;
+    background-color: hsl(190, 24%, 97%);
+    color: hsl(190, 24%, 35%);
     height: 3rem;
-}
-.subscribe_input::placeholder{
-    color:hsl(190, 64%, 22%);
-}
+  }
+  
+  .subscribe-input::placeholder {
+    color: hsl(190, 24%, 35%);
+  }
+  
 .btn{
     height: 3rem;
 }
