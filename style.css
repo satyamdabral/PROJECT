@@ -537,6 +537,7 @@ button,input{
   
   .subscribe-description {
     margin-bottom: 2.5rem;
+      margin-right: 150px;
   }
   
   .subscribe-form {
